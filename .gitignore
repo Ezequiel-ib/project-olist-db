@@ -1,0 +1,17 @@
+
+# Ignore all data files (CSVs, etc.) inside the data directory
+data/*
+# Ensure .gitkeep is tracked to maintain folder structure
+!data/.gitkeep
+
+# Python Virtual Environments
+venv/
+env/
+
+# Python & Jupyter Notebook temporary files
+__pycache__/
+.ipynb_checkpoints/
+
+# System-specific and IDE configuration files
+.DS_Store
+.vscode/
